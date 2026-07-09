@@ -62,8 +62,5 @@ python manage.py runserver
 ```
 
 ---
-
-## 👩‍💻 Author
-
-**Gaganashree P**
-Project Repository: https://github.com/gaganashree26/AI-MEDICAL-DIAGNOSIS.git
+## Project Repository
+https://github.com/gaganashree26/AI-MEDICAL-DIAGNOSIS.git
