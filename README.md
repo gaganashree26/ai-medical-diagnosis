@@ -24,31 +24,33 @@ This is a smart healthcare web application that predicts diseases based on sympt
 ---
 
 ## ⚙️ How to Run
-## Download the project
-## Open terminal
+1. Download the project
 
-1. Install Dependencies
-cd AI_MedAssist
+2. Open terminal
 
-pip install -r requirements.txt
+  Install Dependencies
+  cd AI_MedAssist
 
-2. Train ML Models
-cd models
+  pip install -r requirements.txt
+  
+  Train ML Models
+  cd models
 
-python model_training.py
+  python model_training.py
 
-cd ..
+  cd ..
 
-3. Setup Django
-cd backend
+  Setup Django
+  cd backend
 
-python manage.py makemigrations users diagnosis ambulance hospitals
+  python manage.py makemigrations users diagnosis ambulance hospitals
 
-python manage.py migrate
+  python manage.py migrate
 
-python manage.py shell < seed_data.py
+  python manage.py shell < seed_data.py
 
-4. Run Server
-python manage.py runserver
+  Run Server
+
+  python manage.py runserver
 
 ---
